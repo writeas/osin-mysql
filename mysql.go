@@ -11,8 +11,6 @@ import (
 	"github.com/RangelReale/osin"
 	"github.com/ansel1/merry"
 	"github.com/felipeweb/gopher-utils"
-	// driver for mysql db
-	_ "github.com/go-sql-driver/mysql"
 )
 
 var schemas = []string{`CREATE TABLE IF NOT EXISTS {prefix}client (
